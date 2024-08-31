@@ -1,0 +1,98 @@
+/*
+	Hide table navigation
+	Hide search box
+	Hide Quick Edit link
+*/
+.tablenav.top, p.search-box, .row-actions .inline {
+	display: none;
+}
+
+/* Columns */
+#icon-edit {
+	background: url(../img/sndpc-icon-32.png) 0 0 no-repeat;
+}
+
+#sndpc-cols {
+	position: relative;
+	clear: both;
+}
+
+
+#sndpc-col-left .wp-list-table th#fields {
+	width: 25%;
+}
+
+#sndpc-col-left form {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#sndpc-col-right {
+	float: right;
+	width: 100% !important;
+	padding-top: 15px !important;
+}
+
+#sndpc-col-right p.version {
+	font-size: 23px;
+	line-height: 29px;
+	font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', sans-serif;
+	color: #ccc;
+	margin-top: 0;
+}
+
+#sndpc-cpt-overview {
+	position: relative;
+	float: left;
+	padding-top: 20px;
+	width: 100%;
+}
+
+/* wp-box */
+.wp-box {
+	border: 1px solid #e1e1e1;
+	position: relative;
+}
+
+#poststuff .stuffbox>h3, #poststuff h2, #poststuff h3.hndle { font-size:15px !important }
+
+.wp-box .inner {
+	padding: 10px;
+	text-align: center !important;
+}
+
+.wp-box .inner p {
+	color: #666;
+}
+
+.wp-box .footer {
+	background: #f5f5f5;
+	border-top: 1px solid #e1e1e1;
+	overflow: hidden;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
+
+/*.wp-box .footer ul.left {
+	float: left;
+}*/
+
+.wp-box .footer ul li {
+	margin: 0;
+	padding: 0;
+}
+
+.wp-box .footer ul.left li {
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.wp-box .footer ul.right {
+	float: right;
+}
+
+.wp-box .footer ul.right li {
+	margin-left: 10px;
+}

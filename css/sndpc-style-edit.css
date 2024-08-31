@@ -1,0 +1,96 @@
+/*
+	Hide padding in publish meta box
+	Hide Visibility in publish meta box
+	Hide post date in publish meta box
+*/
+div#minor-publishing-actions, div#visibility, div.curtime {
+	display: none;
+}
+
+#icon-edit {
+	background: url(../img/sndpc-icon-32.png) 0 0 no-repeat;
+}
+
+#sndpc_icon_slug_before {
+    display: inline-block;
+    margin-left: -3px;
+    margin-right: 10px;
+    vertical-align: inherit;
+}
+    #sndpc_icon_slug_before::before {
+        font-size: 25px;
+    }
+
+#sndpc_icon_slug {
+	display: inline-block;
+	width: 50%;
+}
+
+/* meta_box */
+div#sndpc_options div.inside, div#sndpc_tax_options div.inside {
+	padding: 0;
+	margin: 0;
+}
+
+	table.sndpc {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	table.sndpc td {
+		border-bottom: 1px solid #e1e1e1;
+		padding: 10px;
+		margin: 0;
+		background: #fff;
+		vertical-align: top;
+	}
+
+		table.sndpc td.label {
+			width: 24%;
+			border-right: 1px solid #e1e1e1;
+			background: #f9f9f9;
+			vertical-align: middle;
+		}
+
+		table.sndpc td.label.top {
+			vertical-align: top;
+		}
+
+			table.sndpc td.label label {
+				font-weight: bold;
+				width: 24%;
+			}
+
+				table.sndpc td.label label span.required {
+					color: #f00;
+					font-weight: bold;
+				}
+
+			table.sndpc td.label p,  table.sndpc td span.default {
+				color: #666;
+			}
+
+		table.sndpc td.section {
+			padding: 0;
+		}
+
+			table.sndpc td.section h3 {
+				cursor: default;
+				border-bottom: none;
+				padding-left: 10px;
+			}
+
+		table.sndpc td .current-sndpc-icon {
+			float: left;
+		}
+
+			table.sndpc td .current-sndpc-icon img {
+				display: block;
+				float: left;
+				padding: 4px 10px 0 0;
+			}
+
+		table.sndpc td .remove-sndpc-icon, table.sndpc td .media-uploader-button {
+			float: left;
+			margin: 0 10px 0 0;
+		}
